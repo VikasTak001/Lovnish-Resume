@@ -57,6 +57,7 @@
     
     .name-header{
         font-size: 25px !important;
+        width: max-content;
     }
 
     .nav-icon-5 span:nth-child(1) {
