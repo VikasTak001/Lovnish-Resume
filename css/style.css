@@ -1,0 +1,199 @@
+header .fa-bookmark {
+    color: #427687;
+    font-size: 20px;
+}
+body{
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unscroll {
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 12px 10px -15px #11111177; 
+}
+
+.topbar {
+    background-color: white;
+}
+
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+
+.name-header {
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.default {
+    cursor: default;
+}
+
+.fs-small {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.primary-active {
+    font-weight: 400;
+    color: #0051ff !important;
+}
+
+.hover-primary {
+    transition: 0.2s;
+}
+
+.hover-primary:hover {
+    font-weight: 400;
+    color: #0051ff !important;
+}
+
+.main-left {
+    background-color: #e6dacf;
+    width: 40%;
+    height: 800px;
+    padding: 130px;
+}
+
+.main-center {
+    position: relative;
+    height: 800px;
+}
+
+.main-right {
+    width: 50%;
+    margin-top: 170px;
+    /* background-color: rosybrown; */
+}
+
+.mobile-visiable {
+    display: none;
+}
+
+.leptop-visiable {
+    display: block;
+}
+
+.persnal-card {
+    box-shadow: -6px 6px 13px 0px rgba(0, 0, 0, 0.151);
+    max-width: 420px;
+    min-width: 300px;
+    height: 530px;
+    position: absolute;
+    right: -20px;
+}
+
+.pc-tp {
+    background-color: #f5ece6;
+    height: 88%;
+}
+
+.pc-bt {
+    background-color: white;
+    height: 12%;
+}
+
+.hr1 {
+    background-color: blue;
+    height: 2px;
+    width: 60px;
+}
+
+.txt--1 {
+    font-family: bitter, serif;
+    color: black;
+    letter-spacing: 0.25em;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.pc-bt i {
+    font-size: 22px;
+}
+
+.ht-big {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    color: black;
+}
+
+.btn-1 {
+    background-color: #0051ff;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-weight: 550;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+    border: 2px solid #0051ff;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-weight: 550;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn-2:hover {
+    background-color: #0051ff;
+    border-color: #0051ff;
+    color: white;
+}
+
+.para p {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.7;
+    max-width: 490px;
+    text-align: justify;
+    cursor: default;
+}
+
+.footer {
+    font-size: 14px;
+}
