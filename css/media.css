@@ -54,6 +54,10 @@
         height: 4px;
         transition-duration: 500ms
     }
+    
+    .name-header{
+        font-size: 25px !important;
+    }
 
     .nav-icon-5 span:nth-child(1) {
         top: 0px;
