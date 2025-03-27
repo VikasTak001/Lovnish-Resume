@@ -67,10 +67,11 @@ header {
 
 .hover-primary {
     transition: 0.2s;
+    font-family: bitter;
 }
 
 .hover-primary:hover {
-    font-weight: 400;
+    font-weight: 600;
     color: #0051ff !important;
 }
 
