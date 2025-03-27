@@ -103,116 +103,95 @@
         position: relative;
         z-index: 5;
     }
-
-    .main {
+    .main{
         flex-wrap: wrap;
     }
-
     .main-center {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%,-40%);
     }
-
-    .main-left,
-    .main-right {
+    .main-left,.main-right{
         width: 100%;
     }
-
-    .main-left {
+    .main-left{
         height: 100vh;
     }
-
-    .main-right {
+    .main-right{
         padding: 20px;
         margin-top: 50px;
         justify-content: center;
     }
-
-    .persnal-card {
+    .persnal-card{
         position: static;
     }
-
-    .para p {
+    .para p{
         max-width: 100%;
     }
-
     .btns-of-hire {
         justify-content: center;
     }
-
-    .mr-tp {
+    .mr-tp{
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }
-
-    .mr-tp h1 {
+    .mr-tp h1{
         width: max-content;
         margin: 0;
         padding: 0;
     }
-
-    .exprinance-box {
+    .exprinance-box{
         flex-wrap: wrap;
         gap: 20px;
     }
-
-    .xyzzz {
+    .xyzzz{
         max-width: 70%;
     }
-
-    .ht-big {
+    .ht-big{
         font-size: 40px;
     }
-
-    .footer {
+    .footer{
         flex-wrap: wrap;
         justify-content: center !important;
     }
-
-    .name-header {
+    .name-header{
         font-size: 25px !important;
     }
 }
-
-@media screen and (max-height: 640px) and (max-width: 1170px) {
-    .main-center {
+@media screen and (max-height: 640px) and (max-width: 1170px){
+    .main-center{
         transform: translate(-50%, -35%);
     }
 }
-
-@media screen and (max-width:370px) {
-    .main-center {
+@media screen and (max-width:370px){
+    .main-center{
         transform: 0;
     }
-
-    .main-resume {
+    .main-resume{
         padding: 50px 5px !important;
     }
-
     .exprinance-box {
         padding-left: 10px;
     }
 }
 
-@media screen and (max-width:900px) {
-
-    .c-b-left,
-    .c-b-right {
+@media screen and (max-width:900px){
+    .c-b-left,.c-b-right{
         width: 100%;
         height: max-content;
     }
-
-    .containers-boxs {
+    .containers-boxs{
         padding: 40px 30px;
     }
+    .c-b-l-left-box{
+        left: -30px;
+    }
 }
-
-@media screen and (max-width:700px) {
-    .main-resume {
+@media screen and (max-width:700px){
+    .main-resume{
         padding: 50px;
     }
-
+    
 }

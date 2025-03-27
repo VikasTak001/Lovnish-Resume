@@ -2,11 +2,9 @@ header .fa-bookmark {
     color: #427687;
     font-size: 20px;
 }
-
-body {
+body{
     overflow-x: hidden;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +26,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    box-shadow: 0px 12px 10px -15px #11111177;
+    box-shadow: 0px 12px 10px -15px #11111177; 
 }
 
 .topbar {
@@ -200,84 +198,85 @@ header {
     font-size: 14px;
 }
 
-.box-blue {
+.box-blue{
     background-color: #0051ff;
     height: 20px;
     width: 20px;
 }
-
-.box-blue-small {
+.box-blue-small{
     background-color: #0051ff;
     height: 15px;
     width: 15px;
 }
-
-.main-resume {
+.main-resume{
     background: #e6dacf;
     padding: 100px;
 }
-
-.resume-heading {
+.resume-heading{
     padding-bottom: 100px;
 }
-
-.exp-text {
+.exp-text{
     font-size: 25px;
     font-weight: bold;
 }
-
-.main-resume-child {
+.main-resume-child{
     max-width: 724px;
     margin: 0 auto;
 }
-
-.containers-boxs {
+.containers-boxs{
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.151);
     padding: 70px 40px;
     background-color: white;
 }
-
-.containers-boxs {
+.containers-boxs{
     flex-wrap: wrap;
 }
-
-.c-b-left,
-.c-b-right {
+.c-b-left,.c-b-right{
     width: 50%;
     height: 100%;
 }
-
-.fs-small-1 {
+.fs-small-1{
     font-size: 20px;
     color: #0051ff;
     cursor: default;
 }
-
-.fs-smaller {
+.fs-smaller{
     font-size: 17px;
 }
-
-.fs-smallest {
+.fs-smallest{
     font-size: 14px;
 }
-
-.text-justify {
+.text-justify{
     text-align: justify;
 }
-
-.margin-top {
+.margin-top{
     margin-top: 3px;
 }
-
-.w-max {
+.w-max{
     max-width: max-content;
 }
-
-.max-width-80 {
+.max-width-80{
     max-width: 80%;
 }
-
-.row-2 {
+.row-2{
     flex-wrap: wrap;
     max-width: 450px;
+}
+.text-center{
+    text-align: center;
+}
+.para-1{
+    width: 100%;
+    margin: 0 auto;
+}
+.para-1 p{
+    margin: 0;
+    cursor: default;
+}
+.c-b-l-left-box{
+    position: absolute;
+    background-color: #0051ff;
+    height: 100%;
+    width: 10px;
+    left: -40px;
 }
