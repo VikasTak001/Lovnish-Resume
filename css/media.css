@@ -4,7 +4,7 @@
     }
 
     .leptop-visiable {
-        display: none;
+        display: none !important;
     }
 
     .top-right {
@@ -120,6 +120,7 @@
     }
     .main-right{
         padding: 20px;
+        margin-top: 50px;
         justify-content: center;
     }
     .persnal-card{
@@ -149,7 +150,7 @@
         max-width: 70%;
     }
     .ht-big{
-        font-size: 60px;
+        font-size: 40px;
     }
     .footer{
         flex-wrap: wrap;
