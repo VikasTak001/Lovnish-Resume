@@ -158,7 +158,7 @@ header {
 }
 
 .btn-1:hover {
-    background-color: white;
+    background-color: transparent;
     color: black;
 }
 
@@ -196,4 +196,69 @@ header {
 
 .footer {
     font-size: 14px;
+}
+
+.box-blue{
+    background-color: #0051ff;
+    height: 20px;
+    width: 20px;
+}
+.box-blue-small{
+    background-color: #0051ff;
+    height: 15px;
+    width: 15px;
+}
+.main-resume{
+    background: #e6dacf;
+    padding: 100px;
+}
+.resume-heading{
+    padding-bottom: 100px;
+}
+.exp-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-resume-child{
+    max-width: 724px;
+    margin: 0 auto;
+}
+.containers-boxs{
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.151);
+    padding: 70px 40px;
+    background-color: white;
+}
+.containers-boxs{
+    flex-wrap: wrap;
+}
+.c-b-left,.c-b-right{
+    width: 50%;
+    height: 100%;
+}
+.fs-small-1{
+    font-size: 20px;
+    color: #0051ff;
+    cursor: default;
+}
+.fs-smaller{
+    font-size: 17px;
+}
+.fs-smallest{
+    font-size: 14px;
+}
+.text-justify{
+    text-align: justify;
+}
+.margin-top{
+    margin-top: 3px;
+}
+.w-max{
+    max-width: max-content;
+}
+.max-width-80{
+    max-width: 80%;
+}
+.row-2{
+    flex-wrap: wrap;
+    max-width: 450px;
 }

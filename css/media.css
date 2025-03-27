@@ -54,11 +54,6 @@
         height: 4px;
         transition-duration: 500ms
     }
-    
-    .name-header{
-        font-size: 25px !important;
-        width: max-content;
-    }
 
     .nav-icon-5 span:nth-child(1) {
         top: 0px;
@@ -119,10 +114,12 @@
     }
     .main-left,.main-right{
         width: 100%;
-
+    }
+    .main-left{
+        height: 100vh;
     }
     .main-right{
-        padding: 50px;
+        padding: 20px;
         justify-content: center;
     }
     .persnal-card{
@@ -144,6 +141,10 @@
         margin: 0;
         padding: 0;
     }
+    .exprinance-box{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
     .xyzzz{
         max-width: 70%;
     }
@@ -154,4 +155,39 @@
         flex-wrap: wrap;
         justify-content: center !important;
     }
+    .name-header{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-height: 640px) {
+    .main-center{
+        transform: translate(-50%, -35%);
+    }
+}
+@media screen and (max-width:370px){
+    .main-center{
+        transform: translate(-55%, -35%);
+    }
+    .main-resume{
+        padding: 50px 5px !important;
+    }
+    .exprinance-box {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .c-b-left,.c-b-right{
+        width: 100%;
+        height: max-content;
+    }
+    .containers-boxs{
+        padding: 40px 30px;
+    }
+}
+@media screen and (max-width:700px){
+    .main-resume{
+        padding: 50px;
+    }
+    
 }
